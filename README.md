@@ -107,8 +107,8 @@ On Client:
 npm install -g mocha
 npm install -g babel-cli
 npm install -g webpack
-npm run test
-npm build:example
+npm test
+npm run build:example
 npm run example
 example/dist/index.html 
 ```
