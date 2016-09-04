@@ -100,7 +100,7 @@ On Server:
 On Client:
 * Any call "appFetchData" should be return new promise
 
-**More details:** https://github.com/MrCheater/react-fetch-data/example/src
+**More details:** https://github.com/MrCheater/react-fetch-data/tree/master/example/src
 
 **For Developers**
 ```bash
