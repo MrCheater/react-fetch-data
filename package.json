@@ -1,0 +1,53 @@
+{
+  "name": "react-fetch-data",
+  "version": "1.0.0",
+  "description": "React fetch data in server before render",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "babel-node example/src/server.js",
+    "test": "mocha test/index.js --reporter nyan --compilers js:babel-core/register",
+    "build:example": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrCheater/react-fetch-data.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "fetch",
+    "fetch data",
+    "render",
+    "async",
+    "ajax",
+    "data"
+  ],
+  "author": "mrcheater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrCheater/react-fetch-data/issues"
+  },
+  "homepage": "https://github.com/MrCheater/react-fetch-data#readme",
+  "dependencies": {
+    "fbjs": "^0.8.4",
+    "react": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-html-template": "^1.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "webpack": "^1.13.2"
+  }
+}
